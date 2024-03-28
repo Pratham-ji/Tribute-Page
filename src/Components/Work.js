@@ -1,24 +1,24 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import image_1 from "../Assets/image_1.png";
+import image_2 from "../Assets/image_2.png";
+import image_3 from "../Assets/image_3.png";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
+      image: image_1,
       title: "#1",
       text: "Everyone's Favourite",
       videoUrl: "https://youtu.be/RgKAFK5djSk"
     },
     {
-      image: ChooseMeals,
+      image: image_2,
       title: "#2",
       text: "Drift",
       videoUrl: "https://youtu.be/iuJDhFRDx9M"
     },
     {
-      image: DeliveryMeals,
+      image: image_3,
       title: "#3",
       text: "My Favourite",
       videoUrl: "https://youtu.be/E0z_TXMNc6Q"
